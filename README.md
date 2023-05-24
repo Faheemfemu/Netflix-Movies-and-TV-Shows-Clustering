@@ -9,15 +9,15 @@ Integrating this dataset with other external datasets such as IMDB ratings, rott
 # Dataset
 The dataset is collected from Flixable which is a third-party Netflix search engine. This dataset consists of tv shows and movies available on Netflix as of 2019. It includes over 7787 records and 12 attributes. Each attribute is provide information about movies/TV shows. More details of the dataset can be found in the kaggle website.
 # Approach
-Problem Statement
-Importing the Libraries and the Dataset
-Understanding Data
-Exploratory Data Analysis
-Data Cleaning
-Textual Data Preprocessing
-Clusters Impelementation
-Recommendation System.
-Conclusions
+* Problem Statement
+* Importing the Libraries and the Dataset
+* Understanding Data
+* Exploratory Data Analysis
+* Data Cleaning
+* Textual Data Preprocessing
+* Clusters Impelementation
+* Recommendation System.
+* Conclusions
 # conclusions
 In this project, we worked on a text clustering problem wherein we had to classify/group the Netflix shows into certain clusters such that the shows within a cluster are similar to each other and the shows in different clusters are dissimilar to each other.
 
@@ -38,13 +38,13 @@ kids tv is the top most TV show genre in netflix
 
 * india has highest number of movies in netflix
 
-*30% movies released on Netflix.
+* 30% movies released on Netflix.
 
 * 70% movies added on Netflix were released earlier by different mode.
 
-*We began by dealing with the dataset's missing values and doing exploratory data analysis (EDA).It was found that Netflix hosts more movies than TV shows on its platform, and the total number of shows added on Netflix is growing exponentially.
+* We began by dealing with the dataset's missing values and doing exploratory data analysis (EDA).It was found that Netflix hosts more movies than TV shows on its platform, and the total number of shows added on Netflix is growing exponentially.
 
-*Also, majority of the shows were produced in the United States, and the majority of the shows on Netflix were created for adults and young adults age group.
+* Also, majority of the shows were produced in the United States, and the majority of the shows on Netflix were created for adults and young adults age group.
 
 * It was decided to cluster the data based on the attributes: director, cast, country, genre, and description.
 
